@@ -1,0 +1,8 @@
+{
+  "platform": "win32",
+  "openfold_module_found": false,
+  "openfold3_module_found": false,
+  "run_openfold_on_path": null,
+  "OPENFOLD_REPO": null,
+  "layerC_inference": "OpenFold3 inference uses the `run_openfold` CLI after `pip install openfold3` and `setup_openfold` (Linux + NVIDIA GPU; typically not Windows-native). Use docker/openfold3-smoke on hosts without a local install."
+}

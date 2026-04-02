@@ -1,0 +1,3 @@
+pdb_id,stage,error
+22FX,layer_a_structure,ValueError('residue missing CA')
+3J9C,layer_a_structure,ValueError('missing N or C needed for virtual C_beta')

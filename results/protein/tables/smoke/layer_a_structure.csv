@@ -1,0 +1,4 @@
+pdb_id,mmcif_path,chain_id,n_residues,mmcif_sha256,file_size_bytes
+1UCU,C:/Users/VeryA/dev/2026/C-DAY/2_Protein_Folding/data/protein/mmcif/1UCU.cif,A,494,b3ccb308371210b2c6c4fdd7d452d8c865c854faf67f05b7c183a31dcae26068,391726
+21AL,C:/Users/VeryA/dev/2026/C-DAY/2_Protein_Folding/data/protein/mmcif/21AL.cif,A,334,8024f79fec81724103f0b54d084512bcfc90cd7ae67b34699987185adb8b10ad,315433
+3A5X,C:/Users/VeryA/dev/2026/C-DAY/2_Protein_Folding/data/protein/mmcif/3A5X.cif,A,494,c3d5f7ca2b4261e402ecbe3c22e65eac52293945c0a36b656202cb715c186041,392551

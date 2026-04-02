@@ -1,0 +1,4 @@
+pdb_id,npz_path,topology_policy_id,graph_mode,max_dimension,n_edges,n_backbone_edges,n_spatial_edges,n_persistence_h0,n_persistence_h1,cache_build_cpu_s
+1UCU,C:/Users/VeryA/dev/2026/C-DAY/2_Protein_Folding/data/processed/protein/1UCU_A_98526a7032b7.npz,topology_v2_cb_backbone_filtration0_r8,cb_topology,1,2364,493,1871,1,452,0.0
+21AL,C:/Users/VeryA/dev/2026/C-DAY/2_Protein_Folding/data/processed/protein/21AL_A_2ce0e923d1c6.npz,topology_v2_cb_backbone_filtration0_r8,cb_topology,1,1534,333,1201,1,275,0.0
+3A5X,C:/Users/VeryA/dev/2026/C-DAY/2_Protein_Folding/data/processed/protein/3A5X_A_2b4082e251c9.npz,topology_v2_cb_backbone_filtration0_r8,cb_topology,1,2323,493,1830,1,449,0.0

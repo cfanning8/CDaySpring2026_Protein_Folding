@@ -1,0 +1,7 @@
+layer,regime,description,status,notes
+1,structural_data,"mmCIF on disk, primary chain, representative coordinates",partial,3/5 mmCIF(s) passed; 2 parse/CB-policy skip(s) — see smoke_parse_errors.csv
+2,topology_preprocessing,residue graph + clique PH + NPZ cache,partial,3/5 mmCIF(s) passed; 2 parse/CB-policy skip(s) — see smoke_parse_errors.csv
+3,openfold3_inference_m1,OpenFold3/AlphaFold3-class structure prediction (inference smoke; baseline fold),dry_run,Query JSON written only; re-run without --dry-run where run_openfold exists.
+3,train_m2_landscape_ph,Fine-tune: L_OpenFold + topology/landscape loss on persistence features (native vs predicted geometry),training_only_not_in_smoke,Full fine-tuning with auxiliary losses is not part of inference smoke; implement after OpenFold3 baseline runs (compare native vs predicted coordinates for L_PH / L_RKHS / jet).
+3,train_m3_rkhs,Fine-tune: add RKHS / semimetric on virtual persistence (epi RKHS port),training_only_not_in_smoke,Full fine-tuning with auxiliary losses is not part of inference smoke; implement after OpenFold3 baseline runs (compare native vs predicted coordinates for L_PH / L_RKHS / jet).
+3,train_m4_jet_epilogue,Fine-tune: jet / higher-order multi-scale objective (from epidemiology topological calculus; port TBD),planned,Spec only in-repo; hook after M2/M3 when jet-based regularizer is frozen.

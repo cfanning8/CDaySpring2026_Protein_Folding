@@ -1,0 +1,22 @@
+.venv/
+.venv-wsl-gpu/
+venv/
+env/
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+
+# Cursor / local editor files (not published)
+.cursorrules
+.cursor/
+
+# Large derived topology caches (regenerate with scripts)
+data/processed/protein/*.npz
+
+# Optional: large validation PDFs from RCSB/PDBe (uncomment if repos get too big)
+# data/protein/validation/*.pdf
