@@ -15,6 +15,9 @@ build/
 .cursorrules
 .cursor/
 
+# Microsoft Office lock files
+~$*
+
 # Large derived topology caches (regenerate with scripts)
 data/processed/protein/*.npz
 
