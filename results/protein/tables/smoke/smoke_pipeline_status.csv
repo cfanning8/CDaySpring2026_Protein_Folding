@@ -1,0 +1,7 @@
+layer,regime,description,status,notes
+1,structural_data,"mmCIF on disk, primary chain, representative coordinates",ok,all 50 mmCIF(s) passed frozen representative policy (CA-only (ca_legacy))
+2,topology_preprocessing,residue graph + clique PH + NPZ cache,ok,all 50 mmCIF(s) passed frozen representative policy (CA-only (ca_legacy))
+3,colabfold_inference_m1,ColabFold (AlphaFold2-class) structure prediction via colabfold_batch (inference smoke),ok,At least one colabfold_batch job finished; see layer_c_colabfold_smoke.csv and output/colabfold_smoke/predictions.
+3,train_m2_wasserstein_ph,Fine-tune competing recipe B: L_fold + Wasserstein on diagrams (pred vs native at structural depth n; not persistence landscape),training_only_not_in_smoke,"Full ColabFold/JAX fine-tuning with competing objectives is not part of inference smoke; see README (L_fold + L_W vs L_fold + L_H; depth n is a grid axis, not a fourth recipe)."
+3,train_m3_rkhs,Fine-tune competing recipe C: L_fold + L_H (RKHS semimetric on sum-pooled internal VPDs; formal chars/heat; RFF encoding in src/topology),training_only_not_in_smoke,"Full ColabFold/JAX fine-tuning with competing objectives is not part of inference smoke; see README (L_fold + L_W vs L_fold + L_H; depth n is a grid axis, not a fourth recipe)."
+3,train_depth_n_axis,"Structural depth n (recursive D^(n)) swept within recipes B and C — Cartesian with stage, not a separate training recipe",spec_in_readme,See README Full differential pipeline; smoke does not sweep n.

@@ -1,0 +1,12 @@
+kind,relative_path,description
+table,layer_a_structure.csv,"Per-PDB: chain, residue count, mmCIF hash"
+table,layer_b_topology.csv,"Per-PDB: edges, H0/H1 interval counts, NPZ path"
+table,smoke_pipeline_status.csv,Long-form pipeline stages + ColabFold / training regimes
+table,smoke_per_structure_metrics.csv,"RMSD, pLDDT, PH sums per PDB"
+table,smoke_nine_run_metrics.csv,"3×3: level×stage; TM-score (TM-align if PATH), pLDDT mean/min/std"
+figure,assets/table_smoke_nine_run.png,Grid: Level | Stage | TM-score | pLDDT
+figure,smoke_layer_a_b_counts.png,Bar chart: residues vs edges
+figure,smoke_persistence_by_dim.png,Stacked bars H0/H1 counts
+figure,assets/*_pd_3d.png,3D persistence diagrams (shared engine with scripts/figures/)
+figure,assets/smoke_residue_graph_pca.png,Residue graph PCA projection
+figure,structure_views/*.png,py3Dmol cartoon + surface (if not skipped)

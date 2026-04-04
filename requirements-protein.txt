@@ -1,0 +1,7 @@
+-r requirements-base.txt
+biotite
+requests
+py3dmol
+playwright
+seaborn
+POT

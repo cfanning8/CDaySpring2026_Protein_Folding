@@ -1,0 +1,17 @@
+file,kind,note
+py3dmol\10MV_01_native_spectrum.png,py3dmol,native cartoon spectrum
+py3dmol\10MV_02_pred_plddt.png,py3dmol,ColabFold pLDDT cartoon
+py3dmol\10MV_03_overlay_native_grey_pred_plddt.png,py3dmol,superposition native+pred
+py3dmol\10MV_04_cartoon_surface_split.png,py3dmol,cartoon vs surface same chain
+py3dmol\10MV_05_pred_line_plddt.png,py3dmol,pred CA line + bfactor
+composites\10MV_triptych_relationships.png,composite,montage of py3Dmol panels + caption
+composites\10MV_rotation_tour_2x2.png,composite,2×2 py3Dmol rotations
+py3dmol\12AK_01_native_spectrum.png,py3dmol,native cartoon spectrum
+py3dmol\12AK_02_pred_plddt.png,py3dmol,ColabFold pLDDT cartoon
+py3dmol\12AK_03_overlay_native_grey_pred_plddt.png,py3dmol,superposition native+pred
+py3dmol\12AK_04_cartoon_surface_split.png,py3dmol,cartoon vs surface same chain
+py3dmol\12AK_05_pred_line_plddt.png,py3dmol,pred CA line + bfactor
+composites\12AK_triptych_relationships.png,composite,montage of py3Dmol panels + caption
+composites\12AK_rotation_tour_2x2.png,composite,2×2 py3Dmol rotations
+py3dmol\corpus_smallest_vs_largest_cartoon.png,py3dmol,size extremes
+README_assets_4.txt,meta,scope

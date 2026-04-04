@@ -1,0 +1,2 @@
+pdb_id,regime,status,detail,query_json,run_openfold_rc
+1UCU,openfold3_inference_m1,dry_run,Invoke on Linux GPU host or Docker image (docker/openfold3-smoke). Install: pip install openfold3 && setup_openfold; ensure run_openfold is on PATH.,C:/Users/VeryA/dev/2026/C-DAY/2_Protein_Folding/results/protein/output/openfold3_smoke/smoke_queries.json,

@@ -1,0 +1,2 @@
+# Default developer install: epidemiology stack (TGN + PyTorch Geometric + PyVista).
+-r requirements-epi.txt

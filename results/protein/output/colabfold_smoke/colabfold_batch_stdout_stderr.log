@@ -1,0 +1,1719 @@
+=== 10MV rc=0 ===
+2026-04-03 15:16:26,580 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 15:16:26,889 Running on GPU
+2026-04-03 15:16:26,929 Found 5 citations for tools or databases
+2026-04-03 15:16:26,929 Query 1/1: 10MV (length 231)
+2026-04-03 15:16:27,596 Sleeping for 10s. Reason: PENDING
+2026-04-03 15:16:38,281 Sleeping for 8s. Reason: PENDING
+2026-04-03 15:16:46,923 Sleeping for 10s. Reason: PENDING
+2026-04-03 15:16:57,548 Sleeping for 8s. Reason: RUNNING
+2026-04-03 15:17:06,269 Sleeping for 8s. Reason: RUNNING
+2026-04-03 15:17:14,882 Sleeping for 7s. Reason: RUNNING
+2026-04-03 15:17:22,493 Sleeping for 10s. Reason: RUNNING
+2026-04-03 15:17:33,135 Sleeping for 6s. Reason: RUNNING
+2026-04-03 15:17:39,749 Sleeping for 7s. Reason: RUNNING
+2026-04-03 15:17:47,423 Sleeping for 8s. Reason: RUNNING
+2026-04-03 15:17:56,055 Sleeping for 7s. Reason: RUNNING
+2026-04-03 15:18:03,672 Sleeping for 8s. Reason: RUNNING
+2026-04-03 15:18:12,332 Sleeping for 9s. Reason: RUNNING
+2026-04-03 15:18:22,016 Sleeping for 7s. Reason: RUNNING
+2026-04-03 15:18:29,644 Sleeping for 10s. Reason: RUNNING
+2026-04-03 15:18:43,381 Setting max_seq=512, max_extra_seq=5120
+2026-04-03 15:19:40,538 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=93.7 pTM=0.909
+2026-04-03 15:20:04,456 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=95 pTM=0.918 tol=0.162
+2026-04-03 15:20:04,456 alphafold2_ptm_model_1_seed_000 took 72.0s (1 recycles)
+2026-04-03 15:20:04,464 reranking models by 'plddt' metric
+2026-04-03 15:20:04,464 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=95 pTM=0.918
+2026-04-03 15:20:04,728 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+PENDING:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+                                                             
+
+PENDING:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+PENDING:   0%|          | 0/150 [elapsed: 00:11 remaining: ?]
+                                                             
+
+PENDING:   0%|          | 0/150 [elapsed: 00:11 remaining: ?]
+PENDING:   0%|          | 0/150 [elapsed: 00:19 remaining: ?]
+                                                             
+
+PENDING:   0%|          | 0/150 [elapsed: 00:19 remaining: ?]
+RUNNING:   0%|          | 0/150 [elapsed: 00:30 remaining: ?]
+RUNNING:   7%|▋         | 10/150 [elapsed: 00:30 remaining: 07:08]
+                                                                  
+
+RUNNING:   7%|▋         | 10/150 [elapsed: 00:30 remaining: 07:08]
+RUNNING:   7%|▋         | 10/150 [elapsed: 00:39 remaining: 07:08]
+RUNNING:  12%|█▏        | 18/150 [elapsed: 00:39 remaining: 04:25]
+                                                                  
+
+RUNNING:  12%|█▏        | 18/150 [elapsed: 00:39 remaining: 04:25]
+RUNNING:  12%|█▏        | 18/150 [elapsed: 00:47 remaining: 04:25]
+RUNNING:  17%|█▋        | 26/150 [elapsed: 00:47 remaining: 03:19]
+                                                                  
+
+RUNNING:  17%|█▋        | 26/150 [elapsed: 00:47 remaining: 03:19]
+RUNNING:  17%|█▋        | 26/150 [elapsed: 00:55 remaining: 03:19]
+RUNNING:  22%|██▏       | 33/150 [elapsed: 00:55 remaining: 02:46]
+                                                                  
+
+RUNNING:  22%|██▏       | 33/150 [elapsed: 00:55 remaining: 02:46]
+RUNNING:  22%|██▏       | 33/150 [elapsed: 01:06 remaining: 02:46]
+RUNNING:  29%|██▊       | 43/150 [elapsed: 01:06 remaining: 02:16]
+                                                                  
+
+RUNNING:  29%|██▊       | 43/150 [elapsed: 01:06 remaining: 02:16]
+RUNNING:  29%|██▊       | 43/150 [elapsed: 01:12 remaining: 02:16]
+RUNNING:  33%|███▎      | 49/150 [elapsed: 01:12 remaining: 02:04]
+                                                                  
+
+RUNNING:  33%|███▎      | 49/150 [elapsed: 01:12 remaining: 02:04]
+RUNNING:  33%|███▎      | 49/150 [elapsed: 01:20 remaining: 02:04]
+RUNNING:  37%|███▋      | 56/150 [elapsed: 01:20 remaining: 01:51]
+                                                                  
+
+RUNNING:  37%|███▋      | 56/150 [elapsed: 01:20 remaining: 01:51]
+RUNNING:  37%|███▋      | 56/150 [elapsed: 01:29 remaining: 01:51]
+RUNNING:  43%|████▎     | 64/150 [elapsed: 01:29 remaining: 01:39]
+                                                                  
+
+RUNNING:  43%|████▎     | 64/150 [elapsed: 01:29 remaining: 01:39]
+RUNNING:  43%|████▎     | 64/150 [elapsed: 01:36 remaining: 01:39]
+RUNNING:  47%|████▋     | 71/150 [elapsed: 01:36 remaining: 01:29]
+                                                                  
+
+RUNNING:  47%|████▋     | 71/150 [elapsed: 01:36 remaining: 01:29]
+RUNNING:  47%|████▋     | 71/150 [elapsed: 01:45 remaining: 01:29]
+RUNNING:  53%|█████▎    | 79/150 [elapsed: 01:45 remaining: 01:19]
+                                                                  
+
+RUNNING:  53%|█████▎    | 79/150 [elapsed: 01:45 remaining: 01:19]
+RUNNING:  53%|█████▎    | 79/150 [elapsed: 01:55 remaining: 01:19]
+RUNNING:  59%|█████▊    | 88/150 [elapsed: 01:55 remaining: 01:08]
+                                                                  
+
+RUNNING:  59%|█████▊    | 88/150 [elapsed: 01:55 remaining: 01:08]
+RUNNING:  59%|█████▊    | 88/150 [elapsed: 02:02 remaining: 01:08]
+RUNNING:  63%|██████▎   | 95/150 [elapsed: 02:02 remaining: 01:00]
+                                                                  
+
+RUNNING:  63%|██████▎   | 95/150 [elapsed: 02:02 remaining: 01:00]
+COMPLETE:  63%|██████▎   | 95/150 [elapsed: 02:13 remaining: 01:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 02:13 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 02:15 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775243931.616480   28345 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 11QE rc=0 ===
+2026-04-03 15:20:07,269 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 15:20:07,463 Running on GPU
+2026-04-03 15:20:07,500 Found 5 citations for tools or databases
+2026-04-03 15:20:07,500 Query 1/1: 11QE (length 168)
+2026-04-03 15:20:08,157 Setting max_seq=512, max_extra_seq=5120
+2026-04-03 15:20:46,251 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=89.1 pTM=0.872
+2026-04-03 15:21:03,026 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=88.6 pTM=0.865 tol=0.534
+2026-04-03 15:21:03,026 alphafold2_ptm_model_1_seed_000 took 50.1s (1 recycles)
+2026-04-03 15:21:03,032 reranking models by 'plddt' metric
+2026-04-03 15:21:03,032 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=88.6 pTM=0.865
+2026-04-03 15:21:03,186 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775244012.303898   30517 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 11TE rc=0 ===
+2026-04-03 15:21:05,339 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 15:21:05,512 Running on GPU
+2026-04-03 15:21:05,549 Found 5 citations for tools or databases
+2026-04-03 15:21:05,549 Query 1/1: 11TE (length 210)
+2026-04-03 15:21:08,782 Setting max_seq=512, max_extra_seq=5120
+2026-04-03 15:21:56,797 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=91.2 pTM=0.858
+2026-04-03 15:22:17,540 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=91.4 pTM=0.862 tol=0.168
+2026-04-03 15:22:17,541 alphafold2_ptm_model_1_seed_000 took 63.8s (1 recycles)
+2026-04-03 15:22:17,547 reranking models by 'plddt' metric
+2026-04-03 15:22:17,547 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=91.4 pTM=0.862
+2026-04-03 15:22:17,702 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:02 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775244072.971757   32276 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 11YC rc=0 ===
+2026-04-03 15:22:19,872 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 15:22:20,049 Running on GPU
+2026-04-03 15:22:20,084 Found 5 citations for tools or databases
+2026-04-03 15:22:20,084 Query 1/1: 11YC (length 537)
+2026-04-03 15:22:20,738 Sleeping for 10s. Reason: PENDING
+2026-04-03 15:22:31,341 Sleeping for 7s. Reason: RUNNING
+2026-04-03 15:22:39,005 Sleeping for 7s. Reason: RUNNING
+2026-04-03 15:22:46,632 Sleeping for 5s. Reason: RUNNING
+2026-04-03 15:22:52,288 Sleeping for 8s. Reason: RUNNING
+2026-04-03 15:23:00,962 Sleeping for 6s. Reason: RUNNING
+2026-04-03 15:23:07,574 Sleeping for 8s. Reason: RUNNING
+2026-04-03 15:23:16,197 Sleeping for 6s. Reason: RUNNING
+2026-04-03 15:23:22,857 Sleeping for 10s. Reason: RUNNING
+2026-04-03 15:23:36,562 Setting max_seq=512, max_extra_seq=5120
+2026-04-03 15:24:36,454 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=91.3 pTM=0.912
+2026-04-03 15:25:01,824 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=92.4 pTM=0.919 tol=0.819
+2026-04-03 15:25:01,825 alphafold2_ptm_model_1_seed_000 took 76.8s (1 recycles)
+2026-04-03 15:25:01,847 reranking models by 'plddt' metric
+2026-04-03 15:25:01,847 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=92.4 pTM=0.919
+2026-04-03 15:25:02,062 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+PENDING:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+                                                             
+
+PENDING:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+RUNNING:   0%|          | 0/150 [elapsed: 00:11 remaining: ?]
+RUNNING:   7%|▋         | 10/150 [elapsed: 00:11 remaining: 02:37]
+                                                                  
+
+RUNNING:   7%|▋         | 10/150 [elapsed: 00:11 remaining: 02:37]
+RUNNING:   7%|▋         | 10/150 [elapsed: 00:18 remaining: 02:37]
+RUNNING:  11%|█▏        | 17/150 [elapsed: 00:18 remaining: 02:27]
+                                                                  
+
+RUNNING:  11%|█▏        | 17/150 [elapsed: 00:18 remaining: 02:27]
+RUNNING:  11%|█▏        | 17/150 [elapsed: 00:26 remaining: 02:27]
+RUNNING:  16%|█▌        | 24/150 [elapsed: 00:26 remaining: 02:18]
+                                                                  
+
+RUNNING:  16%|█▌        | 24/150 [elapsed: 00:26 remaining: 02:18]
+RUNNING:  16%|█▌        | 24/150 [elapsed: 00:32 remaining: 02:18]
+RUNNING:  19%|█▉        | 29/150 [elapsed: 00:32 remaining: 02:14]
+                                                                  
+
+RUNNING:  19%|█▉        | 29/150 [elapsed: 00:32 remaining: 02:14]
+RUNNING:  19%|█▉        | 29/150 [elapsed: 00:40 remaining: 02:14]
+RUNNING:  25%|██▍       | 37/150 [elapsed: 00:40 remaining: 02:04]
+                                                                  
+
+RUNNING:  25%|██▍       | 37/150 [elapsed: 00:40 remaining: 02:04]
+RUNNING:  25%|██▍       | 37/150 [elapsed: 00:47 remaining: 02:04]
+RUNNING:  29%|██▊       | 43/150 [elapsed: 00:47 remaining: 01:57]
+                                                                  
+
+RUNNING:  29%|██▊       | 43/150 [elapsed: 00:47 remaining: 01:57]
+RUNNING:  29%|██▊       | 43/150 [elapsed: 00:56 remaining: 01:57]
+RUNNING:  34%|███▍      | 51/150 [elapsed: 00:56 remaining: 01:48]
+                                                                  
+
+RUNNING:  34%|███▍      | 51/150 [elapsed: 00:56 remaining: 01:48]
+RUNNING:  34%|███▍      | 51/150 [elapsed: 01:02 remaining: 01:48]
+RUNNING:  38%|███▊      | 57/150 [elapsed: 01:02 remaining: 01:42]
+                                                                  
+
+RUNNING:  38%|███▊      | 57/150 [elapsed: 01:02 remaining: 01:42]
+COMPLETE:  38%|███▊      | 57/150 [elapsed: 01:13 remaining: 01:42]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 01:13 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 01:15 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775244223.923831   34441 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 12AK rc=0 ===
+2026-04-03 15:25:04,240 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 15:25:04,415 Running on GPU
+2026-04-03 15:25:04,450 Found 5 citations for tools or databases
+2026-04-03 15:25:04,450 Skipping 12AK (already done)
+2026-04-03 15:25:04,450 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+
+=== 13XK rc=0 ===
+2026-04-03 15:25:06,366 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 15:25:06,523 Running on GPU
+2026-04-03 15:25:06,558 Found 5 citations for tools or databases
+2026-04-03 15:25:06,559 Query 1/1: 13XK (length 457)
+2026-04-03 15:25:08,875 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 15:26:04,655 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 15:26:29,407 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.384
+2026-04-03 15:26:29,408 alphafold2_ptm_model_1_seed_000 took 76.3s (1 recycles)
+2026-04-03 15:26:29,425 reranking models by 'plddt' metric
+2026-04-03 15:26:29,426 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 15:26:29,619 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775244312.829803   36745 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13XL rc=0 ===
+2026-04-03 15:26:31,734 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 15:26:31,901 Running on GPU
+2026-04-03 15:26:31,937 Found 5 citations for tools or databases
+2026-04-03 15:26:31,937 Query 1/1: 13XL (length 457)
+2026-04-03 15:26:34,241 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 15:27:28,879 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 15:27:53,448 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.384
+2026-04-03 15:27:53,448 alphafold2_ptm_model_1_seed_000 took 75.0s (1 recycles)
+2026-04-03 15:27:53,465 reranking models by 'plddt' metric
+2026-04-03 15:27:53,465 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 15:27:53,655 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775244398.167616   39067 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13XM rc=0 ===
+2026-04-03 15:27:55,768 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 15:27:55,946 Running on GPU
+2026-04-03 15:27:55,985 Found 5 citations for tools or databases
+2026-04-03 15:27:55,986 Query 1/1: 13XM (length 457)
+2026-04-03 15:27:58,194 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 15:28:53,837 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 15:29:18,637 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.383
+2026-04-03 15:29:18,638 alphafold2_ptm_model_1_seed_000 took 76.2s (1 recycles)
+2026-04-03 15:29:18,655 reranking models by 'plddt' metric
+2026-04-03 15:29:18,655 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 15:29:18,848 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775244482.158375   41391 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13XN rc=0 ===
+2026-04-03 15:29:20,984 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 15:29:21,161 Running on GPU
+2026-04-03 15:29:21,198 Found 5 citations for tools or databases
+2026-04-03 15:29:21,198 Query 1/1: 13XN (length 457)
+2026-04-03 15:29:23,397 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 15:30:17,564 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 15:30:43,146 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.381
+2026-04-03 15:30:43,147 alphafold2_ptm_model_1_seed_000 took 75.5s (1 recycles)
+2026-04-03 15:30:43,164 reranking models by 'plddt' metric
+2026-04-03 15:30:43,164 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 15:30:43,357 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775244567.335889   43718 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13XO rc=0 ===
+2026-04-03 15:30:45,601 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 15:30:45,768 Running on GPU
+2026-04-03 15:30:45,806 Found 5 citations for tools or databases
+2026-04-03 15:30:45,807 Query 1/1: 13XO (length 457)
+2026-04-03 15:30:48,183 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 15:31:43,952 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 15:32:09,716 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.381
+2026-04-03 15:32:09,717 alphafold2_ptm_model_1_seed_000 took 77.3s (1 recycles)
+2026-04-03 15:32:09,739 reranking models by 'plddt' metric
+2026-04-03 15:32:09,739 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 15:32:09,930 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:02 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775244652.160978   46041 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13XP rc=0 ===
+2026-04-03 15:32:12,068 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 15:32:12,237 Running on GPU
+2026-04-03 15:32:12,273 Found 5 citations for tools or databases
+2026-04-03 15:32:12,273 Query 1/1: 13XP (length 457)
+2026-04-03 15:32:14,419 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 15:33:08,310 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 15:33:33,071 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.381
+2026-04-03 15:33:33,072 alphafold2_ptm_model_1_seed_000 took 74.5s (1 recycles)
+2026-04-03 15:33:33,089 reranking models by 'plddt' metric
+2026-04-03 15:33:33,089 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 15:33:33,284 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775244738.336275   48369 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13XQ rc=0 ===
+2026-04-03 15:33:35,520 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 15:33:35,692 Running on GPU
+2026-04-03 15:33:35,729 Found 5 citations for tools or databases
+2026-04-03 15:33:35,729 Query 1/1: 13XQ (length 457)
+2026-04-03 15:33:38,099 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 15:34:32,277 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 15:34:57,049 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.383
+2026-04-03 15:34:57,050 alphafold2_ptm_model_1_seed_000 took 74.8s (1 recycles)
+2026-04-03 15:34:57,067 reranking models by 'plddt' metric
+2026-04-03 15:34:57,067 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 15:34:57,258 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:02 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775244821.979467   50689 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13XR rc=0 ===
+2026-04-03 15:34:59,422 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 15:34:59,592 Running on GPU
+2026-04-03 15:34:59,627 Found 5 citations for tools or databases
+2026-04-03 15:34:59,628 Query 1/1: 13XR (length 457)
+2026-04-03 15:35:01,932 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 15:35:55,343 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 15:36:19,307 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.383
+2026-04-03 15:36:19,307 alphafold2_ptm_model_1_seed_000 took 73.1s (1 recycles)
+2026-04-03 15:36:19,324 reranking models by 'plddt' metric
+2026-04-03 15:36:19,324 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 15:36:19,511 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775244905.930075   53013 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13XS rc=0 ===
+2026-04-03 15:36:21,577 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 15:36:21,741 Running on GPU
+2026-04-03 15:36:21,778 Found 5 citations for tools or databases
+2026-04-03 15:36:21,778 Query 1/1: 13XS (length 457)
+2026-04-03 15:36:24,053 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 15:37:18,483 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 15:37:43,450 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.384
+2026-04-03 15:37:43,450 alphafold2_ptm_model_1_seed_000 took 75.3s (1 recycles)
+2026-04-03 15:37:43,467 reranking models by 'plddt' metric
+2026-04-03 15:37:43,467 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 15:37:43,659 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775244987.893620   55340 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13XT rc=0 ===
+2026-04-03 15:37:45,809 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 15:37:45,988 Running on GPU
+2026-04-03 15:37:46,024 Found 5 citations for tools or databases
+2026-04-03 15:37:46,024 Query 1/1: 13XT (length 457)
+2026-04-03 15:37:48,288 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 15:38:43,513 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 15:39:09,022 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.385
+2026-04-03 15:39:09,023 alphafold2_ptm_model_1_seed_000 took 76.4s (1 recycles)
+2026-04-03 15:39:09,040 reranking models by 'plddt' metric
+2026-04-03 15:39:09,040 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 15:39:09,231 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775245072.348951   57663 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13XU rc=0 ===
+2026-04-03 15:39:11,418 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 15:39:11,588 Running on GPU
+2026-04-03 15:39:11,629 Found 5 citations for tools or databases
+2026-04-03 15:39:11,629 Query 1/1: 13XU (length 457)
+2026-04-03 15:39:13,966 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 15:40:06,308 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 15:40:29,829 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.381
+2026-04-03 15:40:29,829 alphafold2_ptm_model_1_seed_000 took 71.6s (1 recycles)
+2026-04-03 15:40:29,847 reranking models by 'plddt' metric
+2026-04-03 15:40:29,847 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 15:40:30,032 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:02 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775245157.971052   59983 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13XV rc=0 ===
+2026-04-03 15:40:32,103 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 15:40:32,268 Running on GPU
+2026-04-03 15:40:32,303 Found 5 citations for tools or databases
+2026-04-03 15:40:32,303 Query 1/1: 13XV (length 457)
+2026-04-03 15:40:34,591 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 15:41:27,236 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 15:41:51,197 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.383
+2026-04-03 15:41:51,197 alphafold2_ptm_model_1_seed_000 took 72.5s (1 recycles)
+2026-04-03 15:41:51,214 reranking models by 'plddt' metric
+2026-04-03 15:41:51,214 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 15:41:51,399 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775245238.441369   62302 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13XW rc=0 ===
+2026-04-03 15:41:53,479 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 15:41:53,649 Running on GPU
+2026-04-03 15:41:53,684 Found 5 citations for tools or databases
+2026-04-03 15:41:53,684 Query 1/1: 13XW (length 457)
+2026-04-03 15:41:55,816 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 15:42:49,813 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 15:43:13,593 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.381
+2026-04-03 15:43:13,594 alphafold2_ptm_model_1_seed_000 took 73.5s (1 recycles)
+2026-04-03 15:43:13,610 reranking models by 'plddt' metric
+2026-04-03 15:43:13,610 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 15:43:13,796 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775245319.860922   64619 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13XX rc=0 ===
+2026-04-03 15:43:15,861 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 15:43:16,032 Running on GPU
+2026-04-03 15:43:16,069 Found 5 citations for tools or databases
+2026-04-03 15:43:16,069 Query 1/1: 13XX (length 457)
+2026-04-03 15:43:18,256 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 15:44:10,364 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 15:44:33,935 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.385
+2026-04-03 15:44:33,935 alphafold2_ptm_model_1_seed_000 took 71.5s (1 recycles)
+2026-04-03 15:44:33,953 reranking models by 'plddt' metric
+2026-04-03 15:44:33,953 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 15:44:34,136 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775245402.165594   66936 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13XY rc=0 ===
+2026-04-03 15:44:36,207 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 15:44:36,393 Running on GPU
+2026-04-03 15:44:36,433 Found 5 citations for tools or databases
+2026-04-03 15:44:36,433 Query 1/1: 13XY (length 457)
+2026-04-03 15:44:39,138 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 15:45:33,396 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 15:45:56,941 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.382
+2026-04-03 15:45:56,941 alphafold2_ptm_model_1_seed_000 took 73.6s (1 recycles)
+2026-04-03 15:45:56,958 reranking models by 'plddt' metric
+2026-04-03 15:45:56,958 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 15:45:57,141 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:02 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775245483.032489   69263 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13XZ rc=0 ===
+2026-04-03 15:45:59,321 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 15:45:59,506 Running on GPU
+2026-04-03 15:45:59,544 Found 5 citations for tools or databases
+2026-04-03 15:45:59,544 Query 1/1: 13XZ (length 457)
+2026-04-03 15:46:01,819 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 15:46:55,589 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 15:47:20,445 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.384
+2026-04-03 15:47:20,445 alphafold2_ptm_model_1_seed_000 took 74.3s (1 recycles)
+2026-04-03 15:47:20,462 reranking models by 'plddt' metric
+2026-04-03 15:47:20,462 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 15:47:20,653 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775245565.790407   71584 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13YA rc=0 ===
+2026-04-03 15:47:22,974 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 15:47:23,149 Running on GPU
+2026-04-03 15:47:23,187 Found 5 citations for tools or databases
+2026-04-03 15:47:23,187 Query 1/1: 13YA (length 457)
+2026-04-03 15:47:25,315 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 15:48:20,494 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 15:48:47,290 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.381
+2026-04-03 15:48:47,290 alphafold2_ptm_model_1_seed_000 took 77.6s (1 recycles)
+2026-04-03 15:48:47,310 reranking models by 'plddt' metric
+2026-04-03 15:48:47,310 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 15:48:47,504 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775245649.410900   73903 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13YB rc=0 ===
+2026-04-03 15:48:49,717 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 15:48:49,886 Running on GPU
+2026-04-03 15:48:49,922 Found 5 citations for tools or databases
+2026-04-03 15:48:49,922 Query 1/1: 13YB (length 457)
+2026-04-03 15:48:52,217 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 15:49:47,437 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 15:50:13,221 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.382
+2026-04-03 15:50:13,221 alphafold2_ptm_model_1_seed_000 took 76.7s (1 recycles)
+2026-04-03 15:50:13,241 reranking models by 'plddt' metric
+2026-04-03 15:50:13,242 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 15:50:13,435 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775245736.267419   76222 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13YC rc=0 ===
+2026-04-03 15:50:15,645 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 15:50:15,826 Running on GPU
+2026-04-03 15:50:15,862 Found 5 citations for tools or databases
+2026-04-03 15:50:15,863 Query 1/1: 13YC (length 457)
+2026-04-03 15:50:18,464 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 15:51:14,019 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 15:51:39,568 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.381
+2026-04-03 15:51:39,568 alphafold2_ptm_model_1_seed_000 took 76.7s (1 recycles)
+2026-04-03 15:51:39,586 reranking models by 'plddt' metric
+2026-04-03 15:51:39,586 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 15:51:39,781 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:02 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775245822.530061   78533 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13YD rc=0 ===
+2026-04-03 15:51:41,983 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 15:51:42,150 Running on GPU
+2026-04-03 15:51:42,185 Found 5 citations for tools or databases
+2026-04-03 15:51:42,186 Query 1/1: 13YD (length 457)
+2026-04-03 15:51:44,537 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 15:52:39,652 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 15:53:04,657 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.381
+2026-04-03 15:53:04,657 alphafold2_ptm_model_1_seed_000 took 75.9s (1 recycles)
+2026-04-03 15:53:04,674 reranking models by 'plddt' metric
+2026-04-03 15:53:04,674 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 15:53:04,868 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:02 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775245908.519973   80849 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13YE rc=0 ===
+2026-04-03 15:53:07,058 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 15:53:07,222 Running on GPU
+2026-04-03 15:53:07,258 Found 5 citations for tools or databases
+2026-04-03 15:53:07,258 Query 1/1: 13YE (length 457)
+2026-04-03 15:53:09,543 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 15:54:03,825 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 15:54:28,623 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.383
+2026-04-03 15:54:28,624 alphafold2_ptm_model_1_seed_000 took 74.6s (1 recycles)
+2026-04-03 15:54:28,641 reranking models by 'plddt' metric
+2026-04-03 15:54:28,641 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 15:54:28,838 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775245993.755463   83168 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13YF rc=0 ===
+2026-04-03 15:54:31,042 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 15:54:31,227 Running on GPU
+2026-04-03 15:54:31,264 Found 5 citations for tools or databases
+2026-04-03 15:54:31,265 Query 1/1: 13YF (length 457)
+2026-04-03 15:54:33,625 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 15:55:27,124 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 15:55:53,063 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.381
+2026-04-03 15:55:53,063 alphafold2_ptm_model_1_seed_000 took 75.1s (1 recycles)
+2026-04-03 15:55:53,080 reranking models by 'plddt' metric
+2026-04-03 15:55:53,080 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 15:55:53,276 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:02 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775246077.657679   85496 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13YG rc=0 ===
+2026-04-03 15:55:55,461 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 15:55:55,639 Running on GPU
+2026-04-03 15:55:55,675 Found 5 citations for tools or databases
+2026-04-03 15:55:55,675 Query 1/1: 13YG (length 457)
+2026-04-03 15:55:57,984 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 15:56:54,549 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 15:57:19,673 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.384
+2026-04-03 15:57:19,673 alphafold2_ptm_model_1_seed_000 took 77.3s (1 recycles)
+2026-04-03 15:57:19,690 reranking models by 'plddt' metric
+2026-04-03 15:57:19,690 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 15:57:19,887 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775246162.087924   87818 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13YH rc=0 ===
+2026-04-03 15:57:22,073 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 15:57:22,249 Running on GPU
+2026-04-03 15:57:22,285 Found 5 citations for tools or databases
+2026-04-03 15:57:22,285 Query 1/1: 13YH (length 457)
+2026-04-03 15:57:24,609 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 15:58:19,315 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 15:58:44,425 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.383
+2026-04-03 15:58:44,425 alphafold2_ptm_model_1_seed_000 took 75.5s (1 recycles)
+2026-04-03 15:58:44,443 reranking models by 'plddt' metric
+2026-04-03 15:58:44,443 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 15:58:44,636 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:02 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775246248.637920   90135 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13YI rc=0 ===
+2026-04-03 15:58:46,791 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 15:58:46,966 Running on GPU
+2026-04-03 15:58:47,002 Found 5 citations for tools or databases
+2026-04-03 15:58:47,002 Query 1/1: 13YI (length 457)
+2026-04-03 15:58:49,320 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 15:59:44,024 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 16:00:08,402 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.384
+2026-04-03 16:00:08,403 alphafold2_ptm_model_1_seed_000 took 74.8s (1 recycles)
+2026-04-03 16:00:08,420 reranking models by 'plddt' metric
+2026-04-03 16:00:08,420 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 16:00:08,609 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:02 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775246333.306706   92456 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13YJ rc=0 ===
+2026-04-03 16:00:10,769 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 16:00:10,957 Running on GPU
+2026-04-03 16:00:10,992 Found 5 citations for tools or databases
+2026-04-03 16:00:10,992 Query 1/1: 13YJ (length 457)
+2026-04-03 16:00:13,316 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 16:01:10,420 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 16:01:35,132 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.383
+2026-04-03 16:01:35,132 alphafold2_ptm_model_1_seed_000 took 77.5s (1 recycles)
+2026-04-03 16:01:35,149 reranking models by 'plddt' metric
+2026-04-03 16:01:35,149 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 16:01:35,345 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:02 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775246417.303854   94766 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13YK rc=0 ===
+2026-04-03 16:01:37,596 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 16:01:37,773 Running on GPU
+2026-04-03 16:01:37,809 Found 5 citations for tools or databases
+2026-04-03 16:01:37,809 Query 1/1: 13YK (length 457)
+2026-04-03 16:01:40,112 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 16:02:33,020 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 16:02:56,581 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.384
+2026-04-03 16:02:56,582 alphafold2_ptm_model_1_seed_000 took 72.0s (1 recycles)
+2026-04-03 16:02:56,599 reranking models by 'plddt' metric
+2026-04-03 16:02:56,599 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 16:02:56,797 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775246504.232598   97087 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13YL rc=0 ===
+2026-04-03 16:02:59,021 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 16:02:59,201 Running on GPU
+2026-04-03 16:02:59,238 Found 5 citations for tools or databases
+2026-04-03 16:02:59,238 Query 1/1: 13YL (length 457)
+2026-04-03 16:03:01,407 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 16:03:54,566 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 16:04:17,335 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.382
+2026-04-03 16:04:17,335 alphafold2_ptm_model_1_seed_000 took 71.7s (1 recycles)
+2026-04-03 16:04:17,353 reranking models by 'plddt' metric
+2026-04-03 16:04:17,353 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 16:04:17,539 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775246585.309858   99410 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13YM rc=0 ===
+2026-04-03 16:04:19,610 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 16:04:19,777 Running on GPU
+2026-04-03 16:04:19,812 Found 5 citations for tools or databases
+2026-04-03 16:04:19,812 Query 1/1: 13YM (length 457)
+2026-04-03 16:04:22,132 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 16:05:13,776 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 16:05:37,773 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.385
+2026-04-03 16:05:37,773 alphafold2_ptm_model_1_seed_000 took 71.5s (1 recycles)
+2026-04-03 16:05:37,791 reranking models by 'plddt' metric
+2026-04-03 16:05:37,791 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 16:05:37,977 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:02 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775246665.989539  101728 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13YN rc=0 ===
+2026-04-03 16:05:40,073 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 16:05:40,251 Running on GPU
+2026-04-03 16:05:40,286 Found 5 citations for tools or databases
+2026-04-03 16:05:40,286 Query 1/1: 13YN (length 457)
+2026-04-03 16:05:42,489 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 16:06:35,777 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 16:07:01,983 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.381
+2026-04-03 16:07:01,984 alphafold2_ptm_model_1_seed_000 took 75.3s (1 recycles)
+2026-04-03 16:07:02,002 reranking models by 'plddt' metric
+2026-04-03 16:07:02,002 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 16:07:02,194 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775246746.433884  104046 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13YO rc=0 ===
+2026-04-03 16:07:04,354 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 16:07:04,529 Running on GPU
+2026-04-03 16:07:04,567 Found 5 citations for tools or databases
+2026-04-03 16:07:04,567 Query 1/1: 13YO (length 457)
+2026-04-03 16:07:06,870 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 16:07:59,728 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 16:08:23,134 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.383
+2026-04-03 16:08:23,134 alphafold2_ptm_model_1_seed_000 took 71.7s (1 recycles)
+2026-04-03 16:08:23,151 reranking models by 'plddt' metric
+2026-04-03 16:08:23,151 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 16:08:23,344 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775246831.140416  106372 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13YP rc=0 ===
+2026-04-03 16:08:25,572 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 16:08:25,756 Running on GPU
+2026-04-03 16:08:25,792 Found 5 citations for tools or databases
+2026-04-03 16:08:25,792 Query 1/1: 13YP (length 457)
+2026-04-03 16:08:27,979 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 16:09:21,625 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 16:09:45,518 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.383
+2026-04-03 16:09:45,518 alphafold2_ptm_model_1_seed_000 took 73.2s (1 recycles)
+2026-04-03 16:09:45,535 reranking models by 'plddt' metric
+2026-04-03 16:09:45,535 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 16:09:45,721 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775246912.050167  108698 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13YQ rc=0 ===
+2026-04-03 16:09:47,795 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 16:09:47,973 Running on GPU
+2026-04-03 16:09:48,009 Found 5 citations for tools or databases
+2026-04-03 16:09:48,009 Query 1/1: 13YQ (length 457)
+2026-04-03 16:09:50,334 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 16:10:43,544 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 16:11:08,969 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.38
+2026-04-03 16:11:08,969 alphafold2_ptm_model_1_seed_000 took 74.5s (1 recycles)
+2026-04-03 16:11:08,989 reranking models by 'plddt' metric
+2026-04-03 16:11:08,989 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 16:11:09,177 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:02 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775246994.229613  111012 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13YR rc=0 ===
+2026-04-03 16:11:11,431 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 16:11:11,669 Running on GPU
+2026-04-03 16:11:11,706 Found 5 citations for tools or databases
+2026-04-03 16:11:11,706 Query 1/1: 13YR (length 457)
+2026-04-03 16:11:13,965 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 16:12:06,908 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 16:12:31,282 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.383
+2026-04-03 16:12:31,282 alphafold2_ptm_model_1_seed_000 took 73.0s (1 recycles)
+2026-04-03 16:12:31,299 reranking models by 'plddt' metric
+2026-04-03 16:12:31,299 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 16:12:31,493 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775247078.017350  113325 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13YS rc=0 ===
+2026-04-03 16:12:33,705 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 16:12:33,887 Running on GPU
+2026-04-03 16:12:33,924 Found 5 citations for tools or databases
+2026-04-03 16:12:33,924 Query 1/1: 13YS (length 457)
+2026-04-03 16:12:36,268 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 16:13:28,432 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 16:13:51,997 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.381
+2026-04-03 16:13:51,998 alphafold2_ptm_model_1_seed_000 took 71.5s (1 recycles)
+2026-04-03 16:13:52,014 reranking models by 'plddt' metric
+2026-04-03 16:13:52,014 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 16:13:52,199 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:02 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775247160.179579  115641 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13YT rc=0 ===
+2026-04-03 16:13:54,375 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 16:13:54,556 Running on GPU
+2026-04-03 16:13:54,591 Found 5 citations for tools or databases
+2026-04-03 16:13:54,591 Query 1/1: 13YT (length 457)
+2026-04-03 16:13:56,858 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 16:14:50,538 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 16:15:15,105 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.384
+2026-04-03 16:15:15,106 alphafold2_ptm_model_1_seed_000 took 73.9s (1 recycles)
+2026-04-03 16:15:15,123 reranking models by 'plddt' metric
+2026-04-03 16:15:15,123 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 16:15:15,315 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775247240.911390  117966 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13YU rc=0 ===
+2026-04-03 16:15:17,499 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 16:15:17,667 Running on GPU
+2026-04-03 16:15:17,704 Found 5 citations for tools or databases
+2026-04-03 16:15:17,704 Query 1/1: 13YU (length 457)
+2026-04-03 16:15:20,103 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 16:16:15,171 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 16:16:40,561 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.385
+2026-04-03 16:16:40,561 alphafold2_ptm_model_1_seed_000 took 76.2s (1 recycles)
+2026-04-03 16:16:40,579 reranking models by 'plddt' metric
+2026-04-03 16:16:40,579 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 16:16:40,774 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:02 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775247324.119066  120288 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13YV rc=0 ===
+2026-04-03 16:16:43,029 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 16:16:43,207 Running on GPU
+2026-04-03 16:16:43,243 Found 5 citations for tools or databases
+2026-04-03 16:16:43,244 Query 1/1: 13YV (length 457)
+2026-04-03 16:16:45,675 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 16:17:40,300 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 16:18:05,457 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.385
+2026-04-03 16:18:05,458 alphafold2_ptm_model_1_seed_000 took 75.4s (1 recycles)
+2026-04-03 16:18:05,475 reranking models by 'plddt' metric
+2026-04-03 16:18:05,475 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 16:18:05,668 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:02 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775247409.790112  122611 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13YW rc=0 ===
+2026-04-03 16:18:07,865 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 16:18:08,043 Running on GPU
+2026-04-03 16:18:08,080 Found 5 citations for tools or databases
+2026-04-03 16:18:08,080 Query 1/1: 13YW (length 457)
+2026-04-03 16:18:10,279 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 16:19:07,560 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 16:19:32,942 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.381
+2026-04-03 16:19:32,943 alphafold2_ptm_model_1_seed_000 took 78.3s (1 recycles)
+2026-04-03 16:19:32,960 reranking models by 'plddt' metric
+2026-04-03 16:19:32,960 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 16:19:33,154 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775247494.303200  124932 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13YX rc=0 ===
+2026-04-03 16:19:35,407 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 16:19:35,585 Running on GPU
+2026-04-03 16:19:35,623 Found 5 citations for tools or databases
+2026-04-03 16:19:35,623 Query 1/1: 13YX (length 457)
+2026-04-03 16:19:37,993 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 16:20:32,177 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 16:20:56,741 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.384
+2026-04-03 16:20:56,741 alphafold2_ptm_model_1_seed_000 took 74.5s (1 recycles)
+2026-04-03 16:20:56,759 reranking models by 'plddt' metric
+2026-04-03 16:20:56,759 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 16:20:56,954 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:02 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775247581.983806  127254 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13YY rc=0 ===
+2026-04-03 16:20:59,131 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 16:20:59,299 Running on GPU
+2026-04-03 16:20:59,334 Found 5 citations for tools or databases
+2026-04-03 16:20:59,334 Query 1/1: 13YY (length 457)
+2026-04-03 16:21:01,677 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 16:21:55,694 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 16:22:19,872 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.383
+2026-04-03 16:22:19,872 alphafold2_ptm_model_1_seed_000 took 74.0s (1 recycles)
+2026-04-03 16:22:19,889 reranking models by 'plddt' metric
+2026-04-03 16:22:19,889 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 16:22:20,079 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:02 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775247665.625252  129580 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13YZ rc=0 ===
+2026-04-03 16:22:22,235 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 16:22:22,399 Running on GPU
+2026-04-03 16:22:22,435 Found 5 citations for tools or databases
+2026-04-03 16:22:22,435 Query 1/1: 13YZ (length 457)
+2026-04-03 16:22:24,744 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 16:23:18,982 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 16:23:44,093 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.381
+2026-04-03 16:23:44,093 alphafold2_ptm_model_1_seed_000 took 75.0s (1 recycles)
+2026-04-03 16:23:44,110 reranking models by 'plddt' metric
+2026-04-03 16:23:44,110 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 16:23:44,306 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775247748.822470  131907 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13ZN rc=0 ===
+2026-04-03 16:23:46,509 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 16:23:46,676 Running on GPU
+2026-04-03 16:23:46,712 Found 5 citations for tools or databases
+2026-04-03 16:23:46,712 Query 1/1: 13ZN (length 457)
+2026-04-03 16:23:49,060 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 16:24:43,030 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 16:25:07,227 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.383
+2026-04-03 16:25:07,228 alphafold2_ptm_model_1_seed_000 took 73.6s (1 recycles)
+2026-04-03 16:25:07,245 reranking models by 'plddt' metric
+2026-04-03 16:25:07,245 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 16:25:07,435 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:02 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775247833.306885  134229 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 13ZZ rc=0 ===
+2026-04-03 16:25:09,606 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 16:25:09,777 Running on GPU
+2026-04-03 16:25:09,815 Found 5 citations for tools or databases
+2026-04-03 16:25:09,815 Query 1/1: 13ZZ (length 457)
+2026-04-03 16:25:12,126 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 16:26:06,219 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 16:26:31,179 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.38
+2026-04-03 16:26:31,179 alphafold2_ptm_model_1_seed_000 took 74.8s (1 recycles)
+2026-04-03 16:26:31,196 reranking models by 'plddt' metric
+2026-04-03 16:26:31,196 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 16:26:31,390 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:01 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775247916.057985  136549 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+
+
+=== 14AA rc=0 ===
+2026-04-03 16:26:33,581 Running colabfold 1.6.1 (9712f2ff262d3977d571919317e06cc96c29cd95)
+ERROR: libtpu not found.
+2026-04-03 16:26:33,752 Running on GPU
+2026-04-03 16:26:33,789 Found 5 citations for tools or databases
+2026-04-03 16:26:33,790 Query 1/1: 14AA (length 457)
+2026-04-03 16:26:36,171 Setting max_seq=512, max_extra_seq=1375
+2026-04-03 16:27:28,601 alphafold2_ptm_model_1_seed_000 recycle=0 pLDDT=92.9 pTM=0.911
+2026-04-03 16:27:52,774 alphafold2_ptm_model_1_seed_000 recycle=1 pLDDT=94.4 pTM=0.923 tol=0.384
+2026-04-03 16:27:52,775 alphafold2_ptm_model_1_seed_000 took 72.4s (1 recycles)
+2026-04-03 16:27:52,792 reranking models by 'plddt' metric
+2026-04-03 16:27:52,792 rank_001_alphafold2_ptm_model_1_seed_000 pLDDT=94.4 pTM=0.923
+2026-04-03 16:27:52,996 Done
+
+---
+
+WARNING: You are welcome to use the default MSA server, however keep in mind that it's a
+limited shared resource only capable of processing a few thousand MSAs per day. Please
+submit jobs only from a single IP address. We reserve the right to limit access to the
+server case-by-case when usage exceeds fair use. If you require more MSAs: You can 
+precompute all MSAs with `colabfold_search` or host your own API and pass it to `--host-url`
+
+
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:00 remaining: 00:00]
+COMPLETE: 100%|██████████| 150/150 [elapsed: 00:02 remaining: 00:00]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1775248000.110675  138867 mlir_graph_optimization_pass.cc:425] MLIR V1 optimization pass is not enabled
+

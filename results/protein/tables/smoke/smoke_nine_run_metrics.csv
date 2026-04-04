@@ -1,0 +1,10 @@
+slot_id,structural_level,stage,metric_col1_value,metric_col2_value,metric_col1_kind,metric_col2_kind,notes
+1,0,Baseline,0.1585,95.498,tm_score_kabsch_fallback,mean_plddt_in_module,"TM-score (TM-align if PATH, else Kabsch-Zhang fallback); pLDDT mean/min/std by stage. Contiguous thirds; not CATH-internal VPD. See README."
+2,0,Wasserstein,0.1585,83.12,tm_score_kabsch_fallback,min_plddt_in_module,
+3,0,RKHS,0.1585,3.449,tm_score_kabsch_fallback,std_plddt_in_module,
+4,1,Baseline,0.0441,93.98,tm_score_kabsch_fallback,mean_plddt_in_module,
+5,1,Wasserstein,0.0441,67.88,tm_score_kabsch_fallback,min_plddt_in_module,
+6,1,RKHS,0.0441,6.205,tm_score_kabsch_fallback,std_plddt_in_module,
+7,2,Baseline,0.1044,95.578,tm_score_kabsch_fallback,mean_plddt_in_module,
+8,2,Wasserstein,0.1044,80.88,tm_score_kabsch_fallback,min_plddt_in_module,
+9,2,RKHS,0.1044,3.306,tm_score_kabsch_fallback,std_plddt_in_module,

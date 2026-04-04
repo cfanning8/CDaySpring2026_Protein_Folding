@@ -1,0 +1,10 @@
+# OpenFold3 (AlphaFold3-class) — install on Linux + NVIDIA CUDA only.
+# Windows native pip install typically fails (DeepSpeed / CUDA toolchain).
+# Prefer: docker build -t openfold3-smoke docker/openfold3-smoke
+#
+# On a supported host after CUDA-aligned PyTorch:
+#   pip install -r requirements-openfold3-smoke.txt
+#   setup_openfold
+# Then `run_openfold` should appear on PATH.
+
+openfold3>=0.4.0

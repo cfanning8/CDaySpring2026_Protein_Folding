@@ -1,0 +1,19 @@
+# CASP14 targets with released PDB codes (subset; see predictioncenter.org/casp14/targetlist.cgi).
+# One 4-letter ID per line (comments ignored). Download mmCIFs with:
+#   python scripts/protein/casp14_ids_to_manifest.py
+#   python scripts/protein/download_manifest_mmcif.py --manifest data/protein/manifests/casp14_manifest.csv --out-dir data/protein/mmcif_casp14
+6t1z
+6uv6
+6s44
+7d2o
+6uf2
+6poo
+6vr4
+6n64
+6vn1
+6ya2
+6un9
+6y4f
+6px4
+6yj1
+7jtl
