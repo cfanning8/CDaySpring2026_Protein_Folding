@@ -1,0 +1,17 @@
+# Core dependencies
+numpy>=1.20.0
+scipy>=1.7.0
+matplotlib>=3.4.0
+
+# Graph and network analysis
+networkx>=2.6.0
+
+# Topological data analysis
+ripser>=0.6.0
+gudhi>=3.4.0
+
+# Machine learning utilities
+scikit-learn>=1.0.0
+
+# Optional: 3D visualization (for petersen_graph_visualization.py)
+# pyvista>=0.32.0  # Uncomment if needed for 3D graph visualizations
