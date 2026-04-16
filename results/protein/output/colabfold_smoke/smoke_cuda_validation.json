@@ -1,7 +1,0 @@
-{
-  "purpose": "ColabFold smoke",
-  "nvidia_smi_gpus": [
-    "NVIDIA GeForce RTX 4080"
-  ],
-  "backend": "nvidia-smi-only"
-}

@@ -1,6 +1,0 @@
-{
-  "platform": "win32",
-  "colabfold_batch_on_path": null,
-  "LOCALCOLABFOLD_ROOT": null,
-  "layerC_inference": "ColabFold runs AlphaFold2-class prediction via `colabfold_batch` (see https://github.com/sokrypton/ColabFold ). On Windows use WSL2 + LocalColabFold ( https://github.com/YoshitakaMo/localcolabfold ); small jobs use the public MSA server."
-}

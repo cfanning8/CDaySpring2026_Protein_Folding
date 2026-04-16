@@ -1,4 +1,0 @@
-key,value
-L1/L2 row status,partial
-L3 M1 (ColabFold) status,failed
-L3 M1 notes,See layer_c_colabfold_smoke.csv and colabfold_batch_stdout_stderr.log.

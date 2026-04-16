@@ -1,4 +1,0 @@
-,M1_ColabFold_AF2_baseline,M2_PH_landscape_aux,M3_RKHS_aux
-L1_structure_data,mmCIF+chain (partial),native coords for PH (partial),native coords for RKHS (partial)
-L2_topology_features,graph+NPZ cache (partial),clique PH intervals (partial),persistence for kernels (partial)
-L3_execution,colabfold_batch (failed),fine-tune M2 (training_only_not_in_smoke),fine-tune M3 (training_only_not_in_smoke)

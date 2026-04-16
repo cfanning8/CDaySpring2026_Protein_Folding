@@ -1,5 +1,0 @@
-name,input,output
-events_to_windows,temp\pilot_lyonschool\table.csv,windowed_events
-windows_to_D_t,windowed_events,temp\pilot_lyonschool\features.npz
-D_t_to_g_t,temp\pilot_lyonschool\features.npz,g_t
-g_t_to_prediction,g_t + TGN,y_t
